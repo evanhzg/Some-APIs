@@ -2,15 +2,17 @@
 	"name": "payment-nodejs",
 	"version": "1.0.0",
 	"description": "",
-	"main": "index.js",
+	"main": "app.js",
 	"scripts": {
-		"dev": "node index.js"
+		"dev": "node app.js"
 	},
 	"keywords": [],
 	"author": "",
 	"license": "ISC",
 	"dependencies": {
 		"express": "^4.21.0",
-		"pg": "^8.13.0"
+		"pg": "^8.13.0",
+		"swagger-jsdoc": "^6.2.8",
+		"swagger-ui-express": "^5.0.1"
 	}
 }
