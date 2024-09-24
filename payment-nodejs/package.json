@@ -1,0 +1,16 @@
+{
+	"name": "payment-nodejs",
+	"version": "1.0.0",
+	"description": "",
+	"main": "index.js",
+	"scripts": {
+		"dev": "node index.js"
+	},
+	"keywords": [],
+	"author": "",
+	"license": "ISC",
+	"dependencies": {
+		"express": "^4.21.0",
+		"pg": "^8.13.0"
+	}
+}
